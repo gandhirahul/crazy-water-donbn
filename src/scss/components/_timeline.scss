@@ -1,0 +1,13 @@
+@import '../namespace';
+
+@include namespace($component-name: timeline) {
+  max-width: 600px;
+  position: relative;
+
+  &__incoming-buzz-container {
+    position: absolute;
+    width: 100%;
+    bottom: calc(100% + 1rem);
+    z-index: -1;
+  }
+}

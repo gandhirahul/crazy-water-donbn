@@ -1,0 +1,7 @@
+$namespace: 'buzzer--';
+
+@mixin namespace($component-name) {
+  .#{$namespace}#{$component-name} {
+    @content;
+  }
+}
